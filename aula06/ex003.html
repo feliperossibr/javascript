@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorena com problema</title>
+    <style>
+        body {
+            background-color: rgb(52, 56, 234);
+        color: rgb(0, 0, 0);
+        font: normal 22pt times;
+        h1 {
+            color: black;
+        }
+        p{
+            color: white;
+        }
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Lorena</h1>
+    <p>Primeiro código do Felipe, dê a ele os parabéns!</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número:')) // mudar para number para não voltar string
+        var n2 = Number(window.prompt('Digite outro número:')) // conversão prseint ou parsefloat
+        // modelos mais novos basta só por number que já converte, mas não elimina os outros comandos
+        var s = n1 + n2 // ( number + number para adição)
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}` ) // (string + string para concatenação)
+    </script>
+</body>
+</html>
